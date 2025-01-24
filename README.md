@@ -9,7 +9,7 @@ DISCLAIMER: This package is a proof of concept and was created for a 2-day hacka
 You can install the development version of aidea from GitHub with:
 
 ```r
-remotes::install_github("BenoitLamarsaude/aidea")
+remotes::install_github("BenoitLamarsaude/chatdpp")
 ```
 
 ## Prerequisites
