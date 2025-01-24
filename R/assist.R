@@ -33,7 +33,7 @@ assist <- function(data, chat = NULL) {
   prompt <- glue::glue(prompt_template)
 
   if (is.null(chat)) {
-    chat <- elmer::chat_openai(
+    chat <- ellmer::chat_openai(
       system_prompt = prompt,
       api_args = list(temperature = 0),
     )
@@ -129,7 +129,7 @@ assist <- function(data, chat = NULL) {
     observeEvent(input$chat_user_input, {
       stream <- chat$stream_async(
         input$chat_user_input,
-        !!!lapply(input$file, elmer::content_image_file)
+        !!!lapply(input$file, ellmer::content_image_file)
       )
       shinychat::chat_append("chat", stream)
     })
@@ -203,7 +203,7 @@ assist <- function(data, chat = NULL) {
       results <- jsonlite::fromJSON(input$editor_results, simplifyDataFrame = FALSE)
       lapply(results, function(x) {
         if (x$type == "image") {
-          elmer::content_image_url(x$content)
+          ellmer::content_image_url(x$content)
         } else if (x$type == "text") {
           x$content
         } else {
