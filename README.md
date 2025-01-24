@@ -1,4 +1,4 @@
-# aidea
+# chatdpp
 
 Combine the power of LLMs and R to help guide exploration of a dataset.
 
