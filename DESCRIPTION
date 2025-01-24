@@ -15,7 +15,7 @@ Imports:
     skimr,
     quarto,
     jsonlite,
-    withr
+    withr,
+    ellmer
 Remotes:
-    hadley/elmer,
     jcheng5/shinychat
