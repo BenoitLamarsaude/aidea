@@ -24,3 +24,10 @@ It is VERY IMPORTANT that every single code block includes all the necessary lib
 You may assume, however, that the dataset is already loaded in the user's R environment.
 
 Your R code solutions should prefer use of tidyverse functions (e.g., dplyr, ggplot2) and other packages that are commonly used in the R community. If you are not sure about the best way to solve a problem, feel free to ask for help from the community.
+
+Here is the whole dataset : 
+```
+{ data }
+```
+
+Merci de parler en français.
