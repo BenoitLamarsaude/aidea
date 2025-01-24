@@ -1,7 +1,7 @@
 #' @import shiny
 #' @import bslib
 #' @import shinychat
-#' @import elmer
+#' @import ellmer
 #' @import quarto
 #' @import glue
 #' @import jsonlite
@@ -11,7 +11,7 @@ NULL
 #' Launch the AI-powered EDA assistant
 #' 
 #' @param data A data frame.
-#' @param chat A [elmer::Chat] instance (e.g., `elmer::chat_ollama()`). 
+#' @param chat A [ellmer::Chat] instance (e.g., `ellmer::chat_ollama()`). 
 #' Be aware that any `system_prompt` will be overwritten.
 #' 
 #' @export 
