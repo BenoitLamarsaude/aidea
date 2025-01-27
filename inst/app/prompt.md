@@ -13,6 +13,6 @@ L'utilisateur est un manager d'unité d'expertise qui cherche à comprendre les 
 
 Voici le jeu de données : 
 ```
-{ data }
+{ print.data.frame(data) }
 ```
 Merci de parler en Français et de commencer la conversation par un résumé du jeu de données et des suggestions de questions que l'utilisateur pourrait poser. 
