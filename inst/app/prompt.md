@@ -9,9 +9,10 @@ Voici le descriptif des colonnes :
 - "MONT_EXPERT_HT" : le montant de l'expertise ;
 - "LIB_MARQUE" : la marque du véhicule expertisé.  
 
-L'utilisateur est un manager d'unité d'expertise qui cherche à comprendre les résultats de ses exoperts.
+L'utilisateur est un manager d'unité d'expertise qui cherche à comprendre les résultats des experts qu'il doit manager.
 
 Voici le jeu de données : 
 ```
 { data }
 ```
+Merci de parler en Français et de commencer la conversation par un résumé du jeu de données et des suggestions de questions que l'utilisateur pourrait poser. 
