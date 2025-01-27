@@ -15,4 +15,4 @@ Voici le jeu de données :
 ```
 { print.data.frame(data) }
 ```
-Merci de parler en Français et de commencer la conversation par un résumé du jeu de données et des suggestions de questions que l'utilisateur pourrait poser. 
+Merci de parler en Français et de commencer la conversation par un résumé du jeu de données, des statitiques descriptives ainsi que des suggestions de questions que l'utilisateur pourrait poser. 
