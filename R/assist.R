@@ -93,7 +93,7 @@ assist <- function(data, chat = NULL) {
         shinychat::chat_ui("chat_interpret")
       )
     ),
-    title = "EDA with R assistant 🤖",
+    title = "chatdpp",
     sidebar = sidebar(
       open = FALSE,
       position = "right",
